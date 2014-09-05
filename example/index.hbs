@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unsplash Demo</title>
+  <link rel="stylesheet" href="{{assets}}/css/github.css">
+</head>
+<body>
+  <h1>Examples of using the \{{unsplash}} helper:</h1>
+
+  <h2>Only width</h2>
+
+  {{#markdown}}
+  ```
+  \{{unsplash 100}}
+  ```
+  {{/markdown}}
+
+  {{unsplash 100}}
+
+  <h2>Width and height</h2>
+
+  {{#markdown}}
+  ```
+  \{{unsplash 800 150}}
+  ```
+  {{/markdown}}
+
+  {{unsplash 800 150}}
+
+  <h2>random</h2>
+
+  {{#markdown}}
+  ```
+  \{{unsplash 800 150 random=true}}
+  ```
+  {{/markdown}}
+
+  {{unsplash 800 150 random=true}}
+
+  <h2>grayscale</h2>
+
+  {{#markdown}}
+  ```
+  \{{unsplash 800 150 grayscale=true}}
+  ```
+  {{/markdown}}
+
+  {{unsplash 800 150 grayscale=true}}
+
+  <h2>gravity</h2>
+
+  {{#markdown}}
+  ```
+  \{{unsplash 800 150 gravity="east"}}
+  ```
+  {{/markdown}}
+
+  {{unsplash 800 150 gravity="east"}}
+
+</body>
+</html>

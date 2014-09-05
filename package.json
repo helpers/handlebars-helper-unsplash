@@ -28,7 +28,10 @@
     "test": "mocha -R spec"
   },
   "devDependencies": {
+    "assemble": "git://github.com/assemble/assemble#v0.6.0",
+    "grunt": "^0.4.5",
     "handlebars": "^2.0.0",
+    "handlebars-helpers": "^0.5.8",
     "lodash": "^2.4.1",
     "mocha": "^1.21.4",
     "should": "^4.0.4",
