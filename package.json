@@ -1,7 +1,7 @@
 {
   "name": "handlebars-helper-unsplash",
   "description": "Handlebars helper to create image tags with unsplash.it properties.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/helpers/handlebars-helper-unsplash",
   "author": {
     "name": "Brian Woodward",
