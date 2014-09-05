@@ -30,6 +30,7 @@
   "devDependencies": {
     "assemble": "git://github.com/assemble/assemble#v0.6.0",
     "grunt": "^0.4.5",
+    "gulp": "^3.8.7",
     "handlebars": "^2.0.0",
     "handlebars-helpers": "^0.5.8",
     "lodash": "^2.4.1",

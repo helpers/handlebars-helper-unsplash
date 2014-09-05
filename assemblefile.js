@@ -1,18 +1,23 @@
 
 var assemble = require('assemble');
+var gulp = require('gulp');
 var helpers = require('handlebars-helpers');
 var Handlebars = require('handlebars');
-// var Handlebars = require('assemble/node_modules/handlebars');
 
 helpers.register(Handlebars, {assemble:assemble});
 
 assemble.helpers(require('./')());
 
-assemble.set('assets', './example/assets');
+assemble.set('assets', '_gh_pages/assets');
 
 assemble.task('demo', function () {
   assemble.src('example/index.hbs')
-    .pipe(assemble.dest('example'));
+    .pipe(assemble.dest('_gh_pages'));
 });
 
-assemble.task('default', ['demo']);
+assemble.task('copy', function () {
+  gulp.src('example/assets/**/*.*')
+    .pipe(gulp.dest('_gh_pages/assets'));
+})
+
+assemble.task('default', ['demo', 'copy']);
