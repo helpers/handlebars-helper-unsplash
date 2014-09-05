@@ -19,9 +19,9 @@ npm test
 ## Usage
 
 ```js
-var handlebarsHelperUnsplash = require('handlebars-helper-unsplash');
-console.log(handlebarsHelperUnsplash('abc'));
-//=> ['a', 'b', 'c'];
+var Handlebars = require('handlebars');
+var helpers = require('handlebars-helper-unsplash')();
+Handlebars.registerHelper('unsplash', helpers.unsplash);
 ```
 
 ## API
