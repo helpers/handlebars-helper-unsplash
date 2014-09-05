@@ -1,0 +1,44 @@
+{
+  "name": "handlebars-helper-unsplash",
+  "description": "Handlebars helper to create image tags with unsplash.it properties.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/helpers/handlebars-helper-unsplash",
+  "author": {
+    "name": "Brian Woodward",
+    "url": "https://github.com/doowb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/helpers/handlebars-helper-unsplash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/helpers/handlebars-helper-unsplash/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/helpers/handlebars-helper-unsplash/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "verb-tag-jscomments": ">= 0.2.0",
+    "verb": ">= 0.2.6",
+    "mocha": "*"
+  },
+  "keywords": [
+    "docs",
+    "documentation",
+    "generate",
+    "generator",
+    "markdown",
+    "templates",
+    "verb"
+  ]
+}
