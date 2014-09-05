@@ -31,8 +31,8 @@ Handlebars.registerHelper('unsplash', helpers.unsplash);
 
 **Brian Woodward**
  
-+ [github/helpers](https://github.com/helpers)
-+ [twitter/helpers](http://twitter.com/helpers) 
++ [github/doowb](https://github.com/doowb)
++ [twitter/doowb](http://twitter.com/doowb) 
 
 ## License
 Copyright (c) 2014 Brian Woodward, contributors.  
